@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Collection Disclosure — Alcove - Vault for Everything — Mars Interactive</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="site"><a class="crumb-link" href="../index.html"><img src="../assets/mars-interactive-icon.png" alt="" width="16" height="16" style="border-radius:3px;vertical-align:-3px;margin-right:5px;object-fit:cover">Mars Interactive</a><span class="crumb-sep">/</span><a class="crumb-link" href="index.html"><img src="../assets/alcove-icon.png" alt="" width="16" height="16" style="border-radius:3px;vertical-align:-3px;margin-right:5px;object-fit:cover">Alcove - Vault for Everything</a><span class="crumb-sep">/</span><span class="crumb-current">Data Collection Disclosure</span></header>
+<div class="page-icon" style="display:flex;align-items:center;justify-content:center;font-size:44px;background:var(--hover)">🥸</div>
+<h1>Data Collection Disclosure</h1><div class="meta">Alcove - Vault for Everything</div><p><strong>Effective Date:</strong> September 16, 2026</p>
+<p>Alcove is committed to a privacy-first approach. We believe what you put in your vault — photos, videos, notes, and anything else — belongs to <strong>you</strong>, and no one else.</p>
+<h2>Data We Collect: None</h2>
+<ul>
+<li>No servers</li>
+<li>No cloud sync</li>
+<li>No tracking</li>
+<li>No analytics</li>
+</ul>
+<h2>On-Device Only</h2>
+<p>Everything you create in Alcove — your photos, videos, albums, slideshow settings, any notes in the decoy vault, and any sites you bookmark — stays on your phone, encrypted with AES-256-GCM. The encryption key itself is never stored in plain form; it exists only as ciphertext, sealed behind whichever of Face ID, your PIN, or your master password you use to unlock the app.</p>
+<h2>One Local Exception: Crash Diagnostics</h2>
+<p>Alcove uses Apple&#39;s MetricKit to receive local crash, hang, and diagnostic reports from iOS. These reports are written only to your device&#39;s local storage and are <strong>never transmitted anywhere by the app</strong> — not to us, not to any third party. They exist so a future update can be informed by diagnostics you choose to share with us directly, not through automatic collection.</p>
+<h2>One Network Exception: Sites</h2>
+<p>Sites lets you add a URL and open it in an in-app browser instead of leaving Alcove. Loading that page sends a request to <em>that site&#39;s</em> own server — unavoidable for browsing to work at all, and no different from what happens when you open the same page in Safari — and that site, not Alcove, may set its own cookies. Alcove does not add tracking of its own on top of this and never sends your vault&#39;s contents or your Alcove usage to any site you visit. Each site&#39;s data is sandboxed from every other site, the same way separate tabs are isolated in a browser. This is the only network access anywhere in the app.</p>
+<h2>Optional Device Integrations</h2>
+<p>Alcove may request the following permissions:</p>
+<ul>
+<li><strong>Face ID</strong> (optional, one of three unlock methods): Face ID processing happens entirely on-device via Apple&#39;s Secure Enclave — Alcove never sees or stores your biometric data itself.</li>
+<li><strong>Photo Library, add-only</strong> (optional): requested only when you choose to save an item from Alcove back to your device&#39;s photo library. Importing media <em>into</em> Alcove does not require this or any other library-wide permission — it goes through Apple&#39;s picker interface, which hands Alcove only the specific items you select, without ever granting the app access to your full library.</li>
+</ul>
+<p>These integrations process data <strong>locally</strong> and never transmit it to external servers.</p>
+<h2>No External APIs or Third-Party SDKs</h2>
+<ul>
+<li>No social login</li>
+<li>No data brokers</li>
+<li>No usage metrics</li>
+<li>No third-party crash analytics (e.g. Firebase, Sentry) — see the MetricKit exception above for the one, fully local exception</li>
+</ul>
+<h2>Backups Are Yours to Make</h2>
+<p>Alcove has no automatic backup, and your vault is deliberately excluded from iCloud and device backups. You can create your own encrypted backup any time via Settings → Export Vault, and restore it via Import — Alcove never transmits that backup anywhere; where you store it afterward is entirely up to you. There is also <strong>no password-recovery mechanism</strong> beyond the single-use recovery codes you can generate yourself (Settings → Recovery Codes): if you forget your PIN and your master password, and have no recovery code left, your vault is permanently unrecoverable — there is no reset, no backend, and no way for us to help you regain access.</p>
+<h2>Data Deletion</h2>
+<p>To delete your data:</p>
+<ul>
+<li>Use Settings → Erase Vault for an immediate, in-app wipe, or</li>
+<li>Uninstall the app.</li>
+</ul>
+<p>Either removes all data permanently from your device. If you want to keep a copy first, export it via Settings → Export Vault before you erase or uninstall.</p>
+<h2>Contact</h2>
+<p>If you have questions about privacy, contact us at: <a href="mailto:mars_interactive@proton.me">mars_interactive@proton.me</a></p>
+
+<footer class="site">
+Timothé Ameline, operating under the developer name Mars Interactive (not a registered legal entity) &middot; <a href="mailto:mars_interactive@proton.me">mars_interactive@proton.me</a>
+</footer>
+</div>
+</body>
+</html>
