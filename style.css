@@ -13,6 +13,7 @@
   --bg-green: #e8f1ec;
   --bg-tan: #f5ede9;
   --bg-purple: #f3ebf9;
+  --bg-pink: #fbecf3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +32,7 @@
     --bg-green: #1e2d24;
     --bg-tan: #2e2620;
     --bg-purple: #2b2333;
+    --bg-pink: #35232c;
   }
 }
 :root[data-theme="dark"] {
@@ -48,6 +50,7 @@
   --bg-green: #1e2d24;
   --bg-tan: #2e2620;
   --bg-purple: #2b2333;
+  --bg-pink: #35232c;
 }
 
 * { box-sizing: border-box; }
@@ -163,6 +166,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
 .project-list .row-aurora { background: var(--bg-green); }
 .project-list .row-scribe { background: var(--bg-tan); }
 .project-list .row-alcove { background: var(--bg-purple); }
+.project-list .row-loop { background: var(--bg-pink); }
 
 /* app page: legal doc links, colored like Notion's mention links */
 .legal-links {
